@@ -8,13 +8,19 @@
 
         default_layer {
             bindings = <
-&kp KP_N7  &mo 1  &kp KP_N9  
+&kp RIGHT  &mo 1  &kp LEFT
             >;
         };
 
         bt_layer {
             bindings = <
-&none         &none         &kp B    
+&kp ESCAPE  &trans  &mo 2
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&bt BT_CLR_ALL  &trans  &trans
             >;
         };
     };
